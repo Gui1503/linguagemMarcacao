@@ -1,0 +1,192 @@
+*{/*  configuração da folha css */
+    font-family: 'Saira', sans-serif;
+    margin: 0;/* aplicação margem "0" para a folha */
+    padding: 0;/* aplicação espaço "0" interno para a folha */
+    box-sizing: border-box;/* definindo o tamanho padrão da caixa da minha folha */
+} 
+
+html,body{/* definindo altura para a estrutura do html e o corpo da pagina */
+    height: 100%;
+    background-color: aliceblue;
+    
+   
+}
+
+.conteudo{/* configurando a class pai do portifolio,
+    definindo um display flex para que seus filhos obedeção as suas configurações*/
+    display: flex;
+}
+.menu-lateral{
+width: 20%;/* definindo largura do menu lateral */
+height: 100%;/* definindo altura do menu lateral */
+position: fixed;/* definindo posição fixa para o menui lateral */
+background-color: #008F8C ;/* definindo cor de fundo para o menu lateral */
+border-radius: 0%  10% 10% 0%;
+}
+.pos-menu-lateral{
+    /* brackgroud color  */
+
+    position: relative;
+    
+    top: 50%;/* centraliza a posição onde será colocada a imagem */
+    transform: translateY(-50%);/* força a centralização da posição onde será colocada a imagem na vertical*/
+
+}
+.img-menu-lateral{
+
+    text-align: center;/* centralizar imagem com tex-aling*/
+
+}
+.img-menu-lateral img{
+
+    width: 70%;/* tamanho da imagem */
+    border: 4px solid black;/* cor da borda */
+    border-radius: 50%;/* tamanho do raio da imagem */
+
+
+}
+
+.menu{
+    margin: 20px;
+    text-align: center;
+}
+.menu b{
+  color: #45214A; 
+}
+.menu a{
+
+    color: white;
+    font-size: 25px; /* tamanho da fonte */
+    display: block;
+    margin-bottom: 20px;/* espaçamento de uma margem para outra */
+    text-decoration: none;
+    text-align: center;
+}
+
+.descricao{
+
+position: absolute;
+left:20%;
+width: 80%;
+height: 100%;
+padding: 0 3%;
+}
+.info-perfil{
+
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  
+
+}
+
+.info-perfil h2{
+    color: #45214A;
+}
+
+.info-perfil h3{
+
+  font-size: 50px;
+  color: #45214A;
+  
+}
+
+.info-perfil span{
+
+    color: #008F8C;
+}
+.info-perfil h4{
+    color: #008F8C;
+}
+
+.info-perfil h4 span{
+
+    color:#45214A;
+}
+
+.info-perfil p{
+
+    font-size: 15px;
+    margin-top: 20px;
+    
+}
+.icons-social{
+
+margin-top: 20px;
+
+}
+
+.icons-social a{/* início das configurações dos icones  */
+    text-decoration: none;
+    color: white;
+    background-color: #008F8C;
+    width: 45px;
+    height: 45px;
+    margin: 0 15px;
+    border-radius: 30px;
+    display: inline-block;
+    text-align: center;
+    border: 2px solid #45214A;
+}/* final das configurações dos icones */
+
+.icons-social i{/* centralizar os icones */
+
+    line-height: 40px;
+}
+
+
+/* abaixo código do arquivo educação */
+
+.descricao-edu{
+
+
+    position: absolute;
+    left:20%;
+    width: 80%;
+    height: 100%;
+    padding: 0 3%;
+
+
+    }
+
+
+    .info-edu{
+    
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      
+
+}
+.aqui-edu{
+    color: #45214A;
+  
+}
+
+
+/* abaixo código do arquivo experiência */
+
+.descricao-exp{
+
+
+    position: absolute;
+    left:20%;
+    width: 80%;
+    height: 100%;
+    padding: 0 3%;
+
+
+    }
+
+
+    .info-exp{
+    
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+    
+}
+.aqui-exp{
+    color: #45214A;
+    
+}

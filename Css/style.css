@@ -1,0 +1,346 @@
+h1{
+    color: red;
+}
+p{
+    color:black;
+}
+h2{
+
+    color: green;
+    text-align: center;
+    font-size: 50px;
+}
+
+/* Este é um comentário */
+
+
+/* Classes e ids */
+
+.p-texto{
+
+    color: lightgreen;
+
+}
+
+#titulo-app{
+
+    color: purple;
+    font-size: 40px;
+}
+
+/* cores */
+
+.nome{
+
+color: orange;
+
+}
+.hexa{
+
+color: #3b3b2c;
+
+}
+.rgba{
+font-size: 40px;
+color: RGBA(255,102,255, 1);
+
+}
+
+
+/* Backgrouds */
+
+.div-backgraoud{
+ background-image: url(img/OIP.jpg);
+ height: 300px;
+
+}
+.titulo-backgroud{
+
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+/* Fontes */
+
+.family{
+
+    color: #000;
+    font-size: 40px;
+
+}
+
+.family.serif{
+
+
+    color: green;
+
+
+}
+.serif{
+
+    font-family: 'Times New Roman';
+  
+}
+.sans-serif{
+
+    font-family: Arial;
+}
+.monospace{
+
+    font-family: 'Courier New';
+}
+
+.italic{
+
+    font-style: italic;
+}
+.oblique{
+
+    font-style: oblique;
+}
+
+.bold{
+
+    font-weight: bold;
+}
+.variant{
+
+
+    font-variant: small-caps;
+}
+
+/* Box model */
+
+body{
+
+    margin: 0%;
+}
+.boxmodel{
+
+
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    padding: 20px;
+
+    /* padding 20px */
+
+   /* padding-top: 30px;
+    padding-left: 10px; 
+    padding-right: 20px;
+    padding-bottom: 5px ;*/
+    
+    /* especifico agruado */
+    /* padding: 30px 20px 5px 10px;*/
+    /* especifico agrupado 3 medidas - top , right-left , bottom*/
+    /* padding: 30px 20px 10px;*/
+    /* especifico agrupado 3 medidas - top-bottom , left-right */
+    padding: 30px 20px;
+
+    border: 3px solid #000;
+
+    /*com o border- width vc consegue proporcionar sua borda com medidas diferentes */
+    border-width: 5px 10px 2px 10px;
+    /* border-left: 5px dotted blue;
+    border-right-style: double;*/
+    border-width: 20px 10px ;
+    border-radius: 15px;
+
+
+    /*margin: 50px;
+    margin: 5px 10px 10px 7px;*/
+    margin: 100px;
+
+
+   /* display none serve para esconder um elemento da tela  */
+   /* display: none;*/
+   
+   /* display inline-block serve para deixar as divis uma dolado da outra */
+   /*display: inline-block;*/
+
+   /* display block posiciona o elemento por linhas  */
+   display: block;
+
+
+
+}
+
+
+.paragrafo-box{
+
+    color: #000;
+    margin: 0%;
+   
+}
+
+
+/* tipos positions */
+/* tipos static - flow no html, não é alterado po top, left, right, bottom*/
+/* tipos relative - flow no html , ela é operada pelo top,left,right,bottom*/
+/* tipos fixed - posiciona em qualquer lugar da tela , e é posicionada em relação ao html*/
+/* tipos  absolute - posiciona em qualquer lugar , e ela respeita o elemento antecessor*/
+/* tipos aticky - está no fundo do html, porém ao passar o scroll ela funciona como fixed */
+
+
+.div-positions{
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    border-bottom: 2px  solid black;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+}
+/* Não permite que vc movimente sua div */
+.static {
+
+    position: static;
+
+}
+/* permite que vc posicione sua div para qualquer lugar  */
+.relative{
+
+
+    position: relative;
+    background-color: blue;
+    top: 100px;
+    left: 100px;
+
+}
+/* repeita a posição da ierarquia ou seja sempre vai respeitar a posição do pai  */
+.absolute{
+
+    position: absolute;
+    background-color: purple;
+    top: 0;
+    right: 0;
+}
+.mini-div{
+
+    height: 50px;
+    width: 50px;
+    top: 50px;
+    left: 100px;
+
+
+}
+/* sempre vai respeitar o body  quando vc rolar o scrow a div vai acompanhar */
+.fixed{
+height: 200px;
+position: fixed;
+background-color: yellow;
+bottom: 0;
+right: 0;
+
+}
+/* quando vc rola o sccrow a div fica fixada em sua posição de origem */
+.sticky{
+position: sticky;
+background-color: gray;
+top: 0px;
+
+
+}
+
+
+/* float */
+
+.container{
+
+    padding: 50px;
+
+}
+
+.div-float{
+
+    overflow: auto;
+}
+
+.img-float{
+
+    width: 200px;
+    height: 200px;
+    float: left;
+
+}
+.float-right{
+
+    float: right;
+}
+
+.p-float{
+
+    color: #000;
+}
+
+.clear{
+    clear: both;
+}
+/* units */
+.pixel-1{
+
+background-color: red;
+width: 100px;
+height: 100px;
+}
+
+.pixel-2{
+
+
+background-color:purple;
+width: 500px;
+height: 50px;
+
+}
+
+.pai-porcentagem{
+
+    height: 500px;
+    width: 500px;
+    background-color: #000;
+}
+
+.porcentagem-1{
+
+width: 50%;
+height: 50%;
+background-color: yellow;
+
+}
+.porcentagem-2{
+
+    width: 50%;
+    height: 50%;
+    background-color: #000;
+
+}
+
+.pai-em{
+
+ font-size: 50px;
+
+}
+
+.em-1{
+   width: .5em; 
+   height: .5em;
+   background-color: purple;
+}
+
+html{
+
+    font-size: 20px;
+}
+
+.rem-1{
+width: 1rem;
+height: 1rem;
+background-color: blue;
+
+}
+
+.rem-2{
+
+    font-size: 2rem;
+
+}

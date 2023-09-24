@@ -1,0 +1,468 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box; 
+
+}
+
+header{
+
+background-image: url('../img2/Fundo5.png');
+background-size: cover;/* ajusta a imagem de acordo ao tamanho */
+background-position: center;/* posiciona a imagem no centro  */
+min-height: 650px;/* ajustando a altura minima da imagem */
+padding: 30px;/* decendo a posição da lista */
+
+
+
+
+}
+
+.container{
+
+    max-width: 1400px;/* largura máxima do container */
+    padding: 0 2%;/* preenchimento  */
+    margin: 0 auto;/* margem */
+
+   
+}
+
+
+/* configuração do logo*/
+
+.logo{
+
+    position: relative;
+    background-image: url('../img/Logo.png');
+    background-size:  100% 100%;
+    width: 150px;
+    height: 50px;
+    float: left;
+    padding: 30px;/* decendo a posição do logo para baixo */
+    border-right: 3px solid#0FC2C0;
+    border-bottom: 3px solid#0FC2C0;
+
+
+}
+
+nav.desktop{/* quando chamamos nav.desktop trabalhamos com todos as listas contidas em desktop */
+
+    float: right;/* mandando a listatoda para esquerda */ 
+
+}
+
+
+nav.desktop ul{
+
+    list-style-type: none;/* retirar os pontos da lista */
+}
+
+nav.desktop li{
+
+    display: inline-block;/* colocando os itens da lista em linha */
+    margin: 0 15px;/* separando os conteúdos da lista em 15px */
+
+}
+
+nav.desktop a{
+
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
+.desktop ul li :hover{
+    
+    color: #0FC2C0;
+    text-decoration: none;
+}
+/*-------------------------mobile---------------------- */
+nav.mobile{
+
+    display: none;  /* display não aparece no desktop */
+    position: relative;
+    float: right;
+
+}
+
+nav.mobile li{
+
+padding: 10px 0;
+
+}
+
+nav.mobile ul{
+  
+   position: absolute;
+   width: 100%;
+   background-color:#0e2e6f;
+   left: 0;
+   text-align: center;
+   padding: 50px 0 30px 0;
+   top: 0;
+   display: none;
+
+}
+nav.mobile a{
+
+    text-decoration: none;
+    color: white;
+}
+
+nav.mobile i{
+
+ position: relative;
+ z-index: 2;  /* determina a profundidade de um elemento em relação ao outro (apareceu o icone) */
+ color: white;
+
+
+}
+
+/* ------------------ fim do mobile ----------------*/
+
+
+div.chamada-mkt{
+
+    padding: 80px 0;/* movendo a posição do texto */
+
+}
+
+div.chamada-mkt h3{
+
+    font-size: 45px; /* tamanho da fonte  */
+    color:white;
+    padding-top: 60px;
+    
+}
+
+div.chamada-mkt p{
+
+    color:white;
+    font-size: 20px;/* tamanho da fonte */
+    
+}
+
+div.chamada-mkt form{ margin-top: 10px;}
+
+div.chamada-mkt input[type=email]{/* definindo as configurações do email */
+
+    width: 200px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: azure;
+    color: white;
+    border: 0;/* retira a sombra da borda */
+    padding-left: 15px;
+
+}
+
+div.chamada-mkt input[type=email]:focus{outline: 0;}/* retirar a borda do local onde será digitado o email */
+
+
+div.chamada-mkt input[type=submit]{/* definindo as configurações do logar */
+
+    background-color: #0FC2C0;
+    border-radius: 100px;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    border: 0;
+
+}
+
+.sessao-01{/* Formatando a primeira sessão da teg section */
+
+    text-align: center;
+    padding: 30px 0;  
+       
+
+}
+
+
+.desc-produlto{/* configurando a posição dos textos da sessão 01 */
+    
+   padding: 0 15px;
+   float: left;
+   width: 50%;
+   margin-top: 50px;
+   background-color:#0e2e6f;
+   box-shadow: 0 9px 20px 0 rgba(17, 17, 17, 0.9);
+     
+   
+}
+
+.clear{
+
+    clear: both;/* não deixa os elementos flutuando */
+}
+
+.desc-produlto h3{/* configurando o texto h3 */
+
+    color:white;
+    font-size: 30px;
+   
+
+}
+
+.desc-produlto p{/* configuração do paragrafo */
+    margin-top: 35px;
+    color:#0FC2C0;
+    font-size: 25px;
+    line-height: 45px;  
+
+}
+
+.sessao-01 img{/* chamando a img da sessao-01 */
+
+    width: 50%;
+    float: left;
+    max-width: 400px;
+
+   
+
+    
+}
+
+.sessao-02 > .container{/* configuração da sessão 02 */
+
+    background-image: url('../img/Munitores.png');
+    background-size: cover;
+    position: relative;
+    max-width: 1500px;
+    min-height: 400px;  
+
+}
+
+.feedback{
+
+    position: absolute;/* diz que ele está acima de tudo */
+    left: 60%;
+    width: 60%;
+    background: #0e2e6f;
+    bottom: -30px;
+    max-width: 500px;
+    padding: 40px;
+    box-shadow: 0 10px 20px 0 rgba(17, 17, 17, 0.9);/* deixando o texto sombreado  */
+  
+
+
+}
+
+.feedback p{
+
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+   
+}
+
+
+.sessao-03{
+
+    margin-top: 100px;
+    background-size: cover;
+    position: relative;
+    max-width: 1400px;
+    min-height: 400px;
+  
+}
+
+.produlto{
+
+    position: relative;
+    width: 30%;
+    margin-left: 10px;
+    height: 200px;
+    display: inline-block;
+    left: 50px;
+    
+
+}
+.produlto img{
+   position: relative;
+    width: 300px;
+    height: 170px;
+    margin-left: 10%;
+    
+}
+
+.produlto h3{
+
+
+    background-color: #0e2e6f;
+    color:#0FC2C0;
+    position: absolute;
+    text-align: center;
+    border: 5px solid #0FC2C0;
+    box-shadow: 0px 10px 20px 0 black;
+ 
+    
+}
+
+.produlto p {
+
+    color:white;
+    text-align: center;
+
+}
+
+
+.sessao-04{
+
+    margin-top: 100px;
+    background-size: cover;
+    position: relative;
+    max-width: 1400px;
+    min-height: 400px;
+  
+}
+
+.btn{
+
+    background-color:#0FC2C0 ;
+    color:black;
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    border-radius: 50px;
+    text-decoration: none;
+    border: 2px solid red ;
+    display: block;
+    font-family: 'Saira', sans-serif;
+
+}
+
+
+
+.marcas1{
+
+    margin-top: 130px;
+    display: inline-block;
+    margin-left: 10%;
+    
+}
+.marcas h2{
+
+   position: relative;
+   margin-top: 300px;
+   background-color: #0e2e6f;
+   color: white;
+   border: 3px solid #0FC2C0;
+   text-align: center;
+   border-radius: 100px;
+   width: 500px;
+   height: 36px;
+   left: 450px;
+       
+    
+}
+
+
+.contato{
+
+
+    text-align: left;
+    margin-top: 100px;
+    background-color: #0e2e6f;
+    color: white;
+    height: 150px;
+ 
+
+
+}
+
+.sobre{
+
+   display: flex;
+   margin-left: 520px;
+    
+}
+
+.categoria{
+
+
+    position: relative;
+    background-color: #0e2e6f;
+    color: white;
+    border: 3px solid #0FC2C0;
+    text-align: center;
+    border-radius: 100px;
+    margin-bottom: 70px;
+
+
+}
+
+/* ----------------------Abaixo versão tratando responsividade-------------------- */
+
+
+
+@media screen and (max-width: 1024px){
+    
+    nav.desktop{
+
+        display: none;
+
+    }
+
+    nav.mobile{
+        display: block;
+    }
+    div.chamada-mkt{
+        text-align: center;
+    }
+
+    form{
+
+        display: inline-block;
+    }
+
+    div.chamada-mkt input[type=email]{
+
+        display: relative;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 10px;
+
+    }
+
+
+    .desc-produlto{
+
+        width: 100%;
+    
+    }
+    section.sessao-01 img{
+
+        position: relative;
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        float: none;
+     
+    }
+
+    .feedback{
+
+    position: relative;
+    margin: 0 auto;
+    left: 0;
+    
+    }
+ 
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

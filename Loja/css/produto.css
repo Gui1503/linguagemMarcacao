@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+    font-family: 'Saira', sans-serif;
+
+}
+
+header{
+
+    background-image: url('../img2/fundo2.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 120px;
+    padding: 30px;
+    
+}
+    
+.container{
+    
+   max-width: 1400px;
+   padding: 0 2%;
+   margin: 0 auto;
+}
+    
+    
+    
+.logo{
+    
+    position: relative;
+    background-image: url('../img/Logo.png');
+    background-size:  100% 100%;
+    width: 150px;
+    height: 50px;
+    float: left;
+    padding: 30px;
+    border-right: 3px solid#0FC2C0;
+    border-bottom: 3px solid#0FC2C0;
+    
+    
+}
+
+
+/* inicio da configuração Home */
+
+.desktop a{
+
+
+ position: relative;
+ left: 900px;
+ 
+
+ }
+ .desktop img{
+
+    width: 70px;
+    height: 50px;
+
+ }
+
+ /* inicio da configuração da seção produto */
+
+section.loja{
+ 
+    padding: 30px 0;
+ 
+
+}
+
+.center {
+
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 2%;
+   
+}
+
+
+.loja-categoria{
+
+    width: 33%;
+    padding: 25px;
+    display: inline-block;
+
+
+}
+
+.caixa-categoria {
+
+    height: 100%;
+    border: 2px solid #0e2e6f;
+  
+}
+
+.caixa-categoria img {
+    
+    width: 100%;
+   
+}
+
+.caixa-categoria h3 {
+    text-align: center;
+    padding: 10px;
+    background-color: #0e2e6f;
+    color: white;
+    
+}
+
+/* inicio da configuração do botão de comprar */
+
+.btn a{
+
+    
+    background-color:#0FC2C0 ;
+    color:black;
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    border-radius: 50px;
+    text-decoration: none;
+    border: 2px solid red ;
+    display: block;
+    margin-top: 10px;
+
+}
+
+.descricao{
+
+    color: #0e2e6f;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.rodape img{
+ 
+    width: 1402px;
+    height: 150px;
+    margin-top: 50px;
+   
+}
+
+

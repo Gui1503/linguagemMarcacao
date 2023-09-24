@@ -1,0 +1,32 @@
+body{background-color: aqua;}/* Fundo da página */
+
+.titulo_1{/* (.) ponto no css chamando uma classe do html */
+
+    color: gray;
+    text-align: center;
+}
+.titulo_2{ 
+
+    color: blue;
+    text-align: center;
+}
+.Paragrafo_1{
+
+    color: blueviolet;
+    text-align: center;
+}
+a{/* Ancora do atml */
+
+text-decoration: none;/* retirar o sublinhado */
+color: white; /* cor */
+background-color: red; /* fundo */
+padding: 10px  10px  10px  10px; /* Medidas da borda da faixa */
+border-radius: 25px; /* Raio da faixa */
+
+
+}
+.Paragrafo_2{
+
+    color:red;
+    text-align: center;
+}

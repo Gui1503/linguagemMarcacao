@@ -1,0 +1,87 @@
+html{
+    font-size: helvetica;
+    background-color: #ddd;
+}
+
+.conteiner{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 50px;
+    margin: 50px;
+    max-width: 1200px;
+    background-color: white;
+}
+
+.destaque{
+    font-weight: bold;
+}
+
+/* cabeçalho */
+ .cabecalho{
+
+    text-align: center;
+ }
+
+ .titulo-principal{
+
+    font-size: 40px;
+ }
+
+ .paragrafo-principal{
+
+   font-style: italic;
+ }
+
+ /* corpo do site */
+
+ .img-destaque{
+
+    text-align: center;
+    margin-top: 30px;
+ }
+/* boigrafia conteiner */
+
+.biografia-conteiner{
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+}
+
+
+/* citacões */
+
+.frase-conteiner{
+
+    background-color: #ddd;
+    padding: 30px;
+}
+
+.frase-conteiner blockquote{
+
+    font-weight: 600;
+    font-size: 30px;
+  
+}
+
+.frase-conteiner p{
+    font-style: italic;
+}
+
+
+/* curiosidades  */
+
+.curiosidades-conteiner{
+
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+
+}
+.curiosidades-conteiner li{
+
+    height: 30px;
+}
+
